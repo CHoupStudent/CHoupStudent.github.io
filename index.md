@@ -41,16 +41,37 @@
 
   <h3>Previous Work</h3>
   <section id="skillsAccordion" style="padding: 0px 0px 0px 0px; margin: 0px 0px 20px 0px">
-      <h3>Skills and Languages</h3>
+      <h3>Languages</h3>
 
       <div class="accordion">
 
         <div class="accordion-header">
-          <div class="accordion-title">Skills</div>
+          <div class="accordion-title">Java</div>
           <span class="accordion-icon">+</span>
         </div>
         <div class="accordion-content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor
+            I have taken one semester in a Java class focused on object-oriented programming.
+        </div>
+        <div class="accordion-header">
+          <div class="accordion-title">Python</div>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+            I have taken one semester on Python where I made a working Alien Invasion clone game.
+        </div>
+        <div class="accordion-header">
+          <div class="accordion-title">JavaScript</div>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+            I have taken one semester in a JavaScript class where I created this portfolio site.
+        </div>
+        <div class="accordion-header">
+          <div class="accordion-title">MySQL</div>
+          <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+            I have taken one semester of MySQL and another semester on general relational database principles.
         </div>
 
       </div>
