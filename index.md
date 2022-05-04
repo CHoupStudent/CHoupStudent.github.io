@@ -40,7 +40,7 @@
   <h3>Honors and Awards</h3>
 
   <h3>Previous Work</h3>
-  <section id="skillsAccordion" style="padding: 0px 0px 0px 0px; margin: 20px 0px; margin-top: 0px">
+  <section id="skillsAccordion" style="padding: 0px 0px 0px 0px; margin: 0px 0px 20px 0px">
       <h3>Skills and Languages</h3>
 
       <div class="accordion">
