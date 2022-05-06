@@ -34,7 +34,7 @@
 
   <h3>Headshot</h3>
 
-    <img src="/assets/images/ChrisHeadshot.jpg" alt="Christopher Houp's Headshot">
+    ![Christopher Houp's Headshot](/assets/images/ChrisHeadshot)
 
   <h3>Desired Job</h3>
 
