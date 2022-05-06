@@ -34,11 +34,15 @@
 
   <h3>Headshot</h3>
 
-    ![Christopher Houp's Headshot](/assets/images/ChrisHeadshot)
+![Christopher Houp's Headshot](/assets/images/ChrisHeadshot)
 
   <h3>Desired Job</h3>
+    <p>I am looking for a web development job, preferrably on the backend. I believe my experience with databases and languages such as Python, Java, and MySQL will be particularly useful. I can also optimize my code for front-end development with my knowledge of html, css, and JavaScript.</p>
 
   <h3>Education</h3>
+    <ul>
+      <li></li>
+    </ul>
   <h3>Courses Taken</h3>
   <h3>Honors and Awards</h3>
 
