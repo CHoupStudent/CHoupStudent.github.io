@@ -44,7 +44,26 @@
   - Mount Aloysius College (2020-2023)
     - B.S. Information Technology
   <h3>Courses Taken</h3>
+  - Introduction to Web Design
+  - Database Applications
+  - Database Management Systems (MySQL)
+  - Ethical Hacking
+  - Client/Server Operating Systems
+  - Intro to Networking
+  - Current Microcomputing Systems
+  - PC Operating Systems
+  - JavaScript Programming
+  - Java Programming
+  - Programming for Beginners (Python)
+  - Other Useful Courses
+    - Professional Communications
   <h3>Honors and Awards</h3>
+  - Member of The National Society of Leadership and Success
+    - Mount Aloysius College Chapter
+
+#
+  * * *
+
 
   <h3>Previous Work</h3>
   <section id="skillsAccordion" style="padding: 0px 0px 0px 0px; margin: 0px 0px 20px 0px">
