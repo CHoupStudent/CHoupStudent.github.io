@@ -85,8 +85,6 @@
       }
     </script>
 
-  <h3>Internships</h3>
-
 <h2>My Work / Projects</h2>
 
 <h2>Contact Me</h2>
