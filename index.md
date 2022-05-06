@@ -34,15 +34,15 @@
 
   <h3>Headshot</h3>
 
-![Christopher Houp's Headshot](/assets/images/ChrisHeadshot)
+![Christopher Houp's Headshot](https://github.com/CHoupStudent/CHoupStudent.github.io/blob/main/assets/images/ChrisHeadshot.jpg)
 
   <h3>Desired Job</h3>
-    <p>I am looking for a web development job, preferrably on the backend. I believe my experience with databases and languages such as Python, Java, and MySQL will be particularly useful. I can also optimize my code for front-end development with my knowledge of html, css, and JavaScript.</p>
+  I am looking for a web development job, preferrably on the backend. I believe my experience with databases and languages such as Python, Java, and MySQL will be particularly useful. I can also optimize my code for front-end development with my knowledge of html, css, and JavaScript.
 
   <h3>Education</h3>
-    <ul>
-      <li></li>
-    </ul>
+  - Central High School (2014-2017)
+  - Mount Aloysius College (2020-2023)
+    - B.S. Information Technology
   <h3>Courses Taken</h3>
   <h3>Honors and Awards</h3>
 
