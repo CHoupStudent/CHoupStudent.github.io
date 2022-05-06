@@ -2,14 +2,36 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
     <style>
       body {
         background-image: url("assets/images/lavender.jpg");
         background-size: cover;
       }
     </style>
+
     <title>Christopher Houp's Portfolio Projects</title>
   </head>
+
   <body>
+
+    <form>
+    <h1>Select website theme: </h1>
+
+    <select id="theme_select" onchange="selectTheme(this)">
+      <option value="lavender">Lavender Flowers</option>
+      <option value="dark">Dark</option>
+      <option value="gaming">Gaming</option>
+      <option value="pirates">Pirates</option>
+    </select>
+    </form>
+
+    <script>
+      // Selects theme on form change
+      function selectTheme(selectElem) {
+        console.log('Testing selector');
+      }
+    </script>
+
   </body>
 </html>
