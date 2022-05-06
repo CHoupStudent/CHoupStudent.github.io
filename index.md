@@ -89,7 +89,7 @@
     </script>
 
 <h2>My Work / Projects</h2>
-[/projects.md](Dice Rolling Application)
+[Dice Rolling Application](/projects.md)
 
 <h2>Contact Me</h2>
 <a href="https://github.com/CHoupStudent">My Public Github Profile</a>
