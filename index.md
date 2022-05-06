@@ -61,8 +61,7 @@
   - Member of The National Society of Leadership and Success
     - Mount Aloysius College Chapter
 
-#
-  * * *
+  <hr />
 
 
   <h3>Previous Work</h3>
