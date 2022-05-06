@@ -1,35 +1,3 @@
-<style>
-    .accordion {
-      max-width: 500px;
-      border: 1px solid #⁠000;
-    }
-
-    .accordion-header {
-      display: flex;
-      padding: 16px;
-      cursor: pointer;
-      background-color: #3D3D3D;
-      color: #FFFFFF;
-      font-weight: bold;
-    }
-
-    .accordion-title {
-      flex: 1;
-    }
-
-    .accordion-icon {
-      width: 24px;
-    }
-
-    .accordion-content {
-      padding: 16px;
-    }
-
-    .accordion-content {
-      display: none;
-    }
-</style>
-
 <h2>Chris Houp | About</h2>
 
   <h3>Headshot</h3>
