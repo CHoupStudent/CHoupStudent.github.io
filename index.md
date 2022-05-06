@@ -33,6 +33,9 @@
 <h2>Chris Houp | About</h2>
 
   <h3>Headshot</h3>
+
+    <img src="/assets/images/ChrisHeadshot.jpg" alt="Christopher Houp's Headshot">
+
   <h3>Desired Job</h3>
 
   <h3>Education</h3>
