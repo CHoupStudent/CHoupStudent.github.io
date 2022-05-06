@@ -34,7 +34,7 @@
 
   <h3>Headshot</h3>
 
-![Christopher Houp's Headshot](https://github.com/CHoupStudent/CHoupStudent.github.io/blob/main/assets/images/ChrisHeadshot.jpg)
+![Christopher Houp's Headshot](/CHoupStudent.github.io/assets/images/ChrisHeadshot.jpg)
 
   <h3>Desired Job</h3>
   I am looking for a web development job, preferrably on the backend. I believe my experience with databases and languages such as Python, Java, and MySQL will be particularly useful. I can also optimize my code for front-end development with my knowledge of html, css, and JavaScript.
