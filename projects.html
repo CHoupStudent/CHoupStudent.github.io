@@ -29,7 +29,19 @@
     <script>
       // Selects theme on form change
       function selectTheme(selectElem) {
-        console.log('Testing selector');
+        var i = selectElem.selectedIndex;
+        if (i < 0) {
+          return; // Error handling invalid index
+        }
+
+        var optionValue = selectElem.options[i].value; // Stores the value of the selected dropdown option
+
+        // Changes the theme based on selected option
+        switch (optionValue) {
+          case "dark":
+            document.body.style.background = "('assets/images/dark.jpg')";
+            break;
+        }
       }
     </script>
 
