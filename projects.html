@@ -51,22 +51,43 @@
         }
 
         var optionValue = selectElem.options[i].value; // Stores the value of the selected dropdown option
+        // Stores the elements that the theme switcher will modify
+        var h1Elems = document.getElementsByClassName("h1");
+        var h2Elems = document.getElementsByClassName("h2");
+        var h3Elems = document.getElementsByClassName("h3");
+        var pElems = document.getElementsByClassName("p");
 
         // Changes the theme based on selected option
         switch (optionValue) {
           case "lavender":
             document.body.style.backgroundImage = "url('assets/images/lavender.jpg')";
-            document.getElementsByTagName('h1').style.color = 'black';
-            document.getElementsByTagName('h2').style.color = 'black';
-            document.getElementsByTagName('h3').style.color = 'black';
-            document.getElementsByTagName('p').style.color = 'black';
+            for (let i = 0; i < h1Elems.length; i++) {
+              h1Elems[i].style.color = 'black';
+            }
+            for (let i = 0; i < h2Elems.length; i++) {
+              h2Elems[i].style.color = 'black';
+            }
+            for (let i = 0; i < h3Elems.length; i++) {
+              h3Elems[i].style.color = 'black';
+            }
+            for (let i = 0; i < pElems.length; i++) {
+              pElems[i].style.color = 'black';
+            }
             break;
           case "dark":
             document.body.style.backgroundImage = "url('assets/images/dark.jpg')";
-            document.getElementsByTagName('h1').style.color = 'white';
-            document.getElementsByTagName('h2').style.color = 'white';
-            document.getElementsByTagName('h3').style.color = 'white';
-            document.getElementsByTagName('p').style.color = 'white';
+            for (let i = 0; i < h1Elems.length; i++) {
+              h1Elems[i].style.color = 'white';
+            }
+            for (let i = 0; i < h2Elems.length; i++) {
+              h2Elems[i].style.color = 'white';
+            }
+            for (let i = 0; i < h3Elems.length; i++) {
+              h3Elems[i].style.color = 'white';
+            }
+            for (let i = 0; i < pElems.length; i++) {
+              pElems[i].style.color = 'white';
+            }
             break;
           case "gaming":
             document.body.style.backgroundImage = "url('assets/images/gaming.jpg')";
