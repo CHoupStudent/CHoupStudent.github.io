@@ -35,34 +35,29 @@
         }
 
         var optionValue = selectElem.options[i].value; // Stores the value of the selected dropdown option
-        // Stores the elements that the theme switcher will modify
-        var h1Elems = document.getElementsByClassName("h1");
-        var h2Elems = document.getElementsByClassName("h2");
-        var h3Elems = document.getElementsByClassName("h3");
-        var pElems = document.getElementsByClassName("p");
 
         // Changes the theme based on selected option
         switch (optionValue) {
           case "lavender":
             document.body.style.backgroundImage = "url('assets/images/lavender.jpg')";
-            h1Elems.style.color = black;
-            h2Elems.style.color = black;
-            h3Elems.style.color = black;
-            pElems.style.color = black;
+            document.h1.style.color = 'black';
+            document.h2.style.color = 'black';
+            document.h3.style.color = 'black';
+            document.p.style.color = 'black';
             break;
           case "dark":
             document.body.style.backgroundImage = "url('assets/images/dark.jpg')";
-            h1Elems.style.color = white;
-            h2Elems.style.color = white;
-            h3Elems.style.color = white;
-            pElems.style.color = white;
+            document.h1.style.color = 'white';
+            document.h2.style.color = 'white';
+            document.h3.style.color = 'white';
+            document.p.style.color = 'white';
             break;
           case "gaming":
             document.body.style.backgroundImage = "url('assets/images/gaming.jpg')";
-            h1Elems.style.color = black;
-            h2Elems.style.color = black;
-            h3Elems.style.color = black;
-            pElems.style.color = black;
+            document.h1.style.color = 'black';
+            document.h2.style.color = 'black';
+            document.h3.style.color = 'black';
+            document.p.style.color = 'black';
             break;
         }
       }
