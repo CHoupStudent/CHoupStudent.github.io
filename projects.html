@@ -58,67 +58,36 @@
         var pElems = document.getElementsByClassName("p");
 
         // Changes the theme based on selected option
-        switch (optionValue) {
-          case "lavender":
-            document.body.style.backgroundImage = "url('assets/images/lavender.jpg')";
-            for (let i = 0; i < h1Elems.length; i++) {
-              h1Elems[i].style.color = '#000000';
-            }
-            for (let i = 0; i < h2Elems.length; i++) {
-              h2Elems[i].style.color = '#000000';
-            }
-            for (let i = 0; i < h3Elems.length; i++) {
-              h3Elems[i].style.color = '#000000';
-            }
-            for (let i = 0; i < pElems.length; i++) {
-              pElems[i].style.color = '#000000';
-            }
-            break;
-          case "dark":
-            document.body.style.backgroundImage = "url('assets/images/dark.jpg')";
-            for (let i = 0; i < h1Elems.length; i++) {
-              h1Elems[i].style.color = '#FFFFFF';
-            }
-            for (let i = 0; i < h2Elems.length; i++) {
-              h2Elems[i].style.color = '#FFFFFF';
-            }
-            for (let i = 0; i < h3Elems.length; i++) {
-              h3Elems[i].style.color = '#FFFFFF';
-            }
-            for (let i = 0; i < pElems.length; i++) {
-              pElems[i].style.color = '#FFFFFF';
-            }
-            break;
-          case "gaming":
-            document.body.style.backgroundImage = "url('assets/images/gaming.jpg')";
-            for (let i = 0; i < h1Elems.length; i++) {
-              h1Elems[i].style.color = 'black';
-            }
-            for (let i = 0; i < h2Elems.length; i++) {
-              h2Elems[i].style.color = 'black';
-            }
-            for (let i = 0; i < h3Elems.length; i++) {
-              h3Elems[i].style.color = 'black';
-            }
-            for (let i = 0; i < pElems.length; i++) {
-              pElems[i].style.color = 'black';
-            }
-            break;
-          case "pirates":
-            document.body.style.backgroundImage = "url('assets/images/pirates.jpg')";
-            for (let i = 0; i < h1Elems.length; i++) {
-              h1Elems[i].style.color = 'black';
-            }
-            for (let i = 0; i < h2Elems.length; i++) {
-              h2Elems[i].style.color = 'black';
-            }
-            for (let i = 0; i < h3Elems.length; i++) {
-              h3Elems[i].style.color = 'black';
-            }
-            for (let i = 0; i < pElems.length; i++) {
-              pElems[i].style.color = 'black';
-            }
-            break;
+        if (optionValue === 'lavender') {
+          h1Elems.forEach(elem => {
+            elem.style.color = 'black';
+          })
+          h2Elems.forEach(elem => {
+            elem.style.color = 'black';
+          })
+          h3Elems.forEach(elem => {
+            elem.style.color = 'black';
+          })
+          pElems.forEach(elem => {
+            elem.style.color = 'black';
+          })
+          document.body.style.background = "url('assets/images/lavender.png')";
+        }
+        if (optionValue === 'dark') {
+          h1Elems.forEach(elem => {
+            elem.style.color = 'white';
+          })
+          h2Elems.forEach(elem => {
+            elem.style.color = 'white';
+          })
+          h3Elems.forEach(elem => {
+            elem.style.color = 'white';
+          })
+          pElems.forEach(elem => {
+            elem.style.color = 'white';
+          })
+          document.body.style.background = "url('assets/images/dark.png')";
+        }
         }
       }
     </script>
