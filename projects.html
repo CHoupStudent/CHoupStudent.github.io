@@ -24,16 +24,43 @@
       p {
         color: black;
       }
+
+      .roll-button {
+        background-color: red;
+        cursor: pointer;
+        width: 10%;
+        height: 50px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        border: 3px solid black;
+      }
+
+      .roll-button-text {
+        text-color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 50px;
+      }
+
+      .reset-button {
+        background-color: red;
+        cursor: pointer;
+        width: 5%;
+        height: 50px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 3px solid black;
+      }
+
     </style>
 
     <title>Christopher Houp's Portfolio Projects</title>
   </head>
 
   <body>
-
-    <form>
-    <h1>Select website theme: </h1>
-
     <script>
       // Selects theme on form change
       function selectTheme(selectElem) {
@@ -113,6 +140,8 @@
         }
     </script>
 
+    <form>
+    <h1>Select website theme: </h1>
     <select id="theme_select" onchange="selectTheme(this)">
       <option value="lavender">Lavender Flowers</option>
       <option value="dark">Dark</option>
@@ -120,6 +149,17 @@
       <option value="pirates">Pirates</option>
     </select>
     </form>
+
+    <script>
+      const rollButton = getElementsByClassName('roll-button');
+    </script>
+
+    <div class='roll-button'>
+      <div class='roll-button-text'>Roll Die</div>
+    </div>
+    <div class='reset-button'>
+      <div class='reset-button-content'></div>
+    </div>
 
   </body>
 </html>
