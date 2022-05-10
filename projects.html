@@ -34,14 +34,6 @@
     <form>
     <h1>Select website theme: </h1>
 
-    <select id="theme_select" onchange="selectTheme(this)">
-      <option value="lavender">Lavender Flowers</option>
-      <option value="dark">Dark</option>
-      <option value="gaming">Gaming</option>
-      <option value="pirates">Pirates</option>
-    </select>
-    </form>
-
     <script>
       // Selects theme on form change
       function selectTheme(selectElem) {
@@ -52,10 +44,10 @@
 
         var optionValue = selectElem.options[i].value; // Stores the value of the selected dropdown option
         // Stores the elements that the theme switcher will modify
-        var h1Elems = document.getElementsByClassName("h1");
-        var h2Elems = document.getElementsByClassName("h2");
-        var h3Elems = document.getElementsByClassName("h3");
-        var pElems = document.getElementsByClassName("p");
+        var h1Elems = Array.from(document.getElementsByTagName("h1"));
+        var h2Elems = Array.from(document.getElementsByTagName("h2"));
+        var h3Elems = Array.from(document.getElementsByClassName("h3"));
+        var pElems = Array.from(document.getElementsByClassName("p"));
 
         // Changes the theme based on selected option
         if (optionValue === 'lavender') {
@@ -71,7 +63,7 @@
           pElems.forEach(elem => {
             elem.style.color = 'black';
           })
-          document.body.style.background = "url('assets/images/lavender.png')";
+          document.body.style.background = "url('assets/images/lavender.jpg')";
         }
         if (optionValue === 'dark') {
           h1Elems.forEach(elem => {
@@ -86,11 +78,18 @@
           pElems.forEach(elem => {
             elem.style.color = 'white';
           })
-          document.body.style.background = "url('assets/images/dark.png')";
+          document.body.style.background = "url('assets/images/dark.jpg')";
         }
         }
-      }
     </script>
+
+    <select id="theme_select" onchange="selectTheme(this)">
+      <option value="lavender">Lavender Flowers</option>
+      <option value="dark">Dark</option>
+      <option value="gaming">Gaming</option>
+      <option value="pirates">Pirates</option>
+    </select>
+    </form>
 
   </body>
 </html>
