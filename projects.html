@@ -44,17 +44,6 @@
         line-height: 100%;
       }
 
-      .reset-button {
-        background-color: red;
-        cursor: pointer;
-        width: 5%;
-        height: 50px;
-        margin: auto;
-        margin-top: 10px;
-        border-radius: 10px;
-        border: 3px solid black;
-      }
-
     </style>
 
     <title>Christopher Houp's Portfolio Projects</title>
@@ -151,15 +140,12 @@
     </form>
 
     <script>
-      const rollButton = getElementsByClassName('roll-button');
+      // rolls dice on click
+      document.getElementsByClassName('roll-button').addEventListener('click', console.log('clicked'));
     </script>
 
     <div class='roll-button'>
       <div class='roll-button-text'>Roll Die</div>
     </div>
-    <div class='reset-button'>
-      <div class='reset-button-content'></div>
-    </div>
-
   </body>
 </html>
